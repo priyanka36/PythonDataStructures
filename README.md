@@ -11,6 +11,10 @@ This repo is an implementation of the various algorithms in python using python 
 -The in-order traversal is shown in the module binarytree.py<br /><br />
 -To read about Inorder traversal go to 
 binarytree <br /><br />
+- The pre-order traversal is shown in the module binarytreecopy.py<br /><br />
+- The post-order traversal is shown in the module binarytreecopy.py<br /><br />
+-The minimum value of the tree is shown in the module binarytreecopy.py<br /><br />
+-The maximum value of the tree is shown in the module binarytreecopy.py<br /><br />
 
 ## INFO
 -This contains various necessary information and practices for coding.<br />
