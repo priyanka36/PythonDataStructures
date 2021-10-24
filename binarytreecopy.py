@@ -82,7 +82,7 @@ class BinarySearchTreeNode:
             a = a+self.left.sum_all_nodes()
         if self.right:
             a = a+self.right.sum_all_nodes()
-        a = a+sum(self.data())
+        a = a+self.data
 
         return a 
 
@@ -136,4 +136,4 @@ def build_tree(elements):
 if __name__ =="__main__":
     numbers = [17,4,1,20,9,23,18,34]
     numbers_tree = build_tree(numbers)
-    print(numbers_tree.post_order_traversal())
+    print(numbers_tree.sum_all_nodes())
