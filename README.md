@@ -20,6 +20,11 @@ binarytree <br /><br />
 - A linked list solves the various time and space complexities associated with the lists
 - A linked list contains a pointer to the previous as well as the next node
 - A linked list is efficient in solving the memory and the various issues associated with the normal list
+- 
+| First Header  | Second Header | Third Header |
+| ------------- | ------------- | ------------ |
+| Content Cell  | Content Cell  | Content Cell 
+| Content Cell  | Content Cell  | Content Cell |
 
 ## INFO
 -This contains various necessary information and practices for coding.<br />
