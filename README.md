@@ -20,13 +20,13 @@ binarytree <br /><br />
 - A linked list solves the various time and space complexities associated with the lists
 - A linked list contains a pointer to the previous as well as the next node
 - A linked list is efficient in solving the memory and the various issues associated with the normal list
-- The comparison table for this is :
-|    | Array | Linked List |
-| ------------- | ------------- | ------------ |
-| Indexing  | O(1)  | O(n) | 
-| Insert/Delete Elements at Start  | O(n)  | O(1) |
-| Insert/Delete Elements at End  | O(1)-amortized  | O(n) |
-| Insert Element in Middle  | O(n)  | O(n) |
+- The comparison table for this is :</br></br>
+|                                  | Array           | Linked List |
+| ---------------------------------| ----------------| ------------|
+| Indexing                         | O(1)            | O(n)        | 
+| Insert/Delete Elements at Start  | O(n)            | O(1)        |
+| Insert/Delete Elements at End    | O(1)-amortized  | O(n)        |
+| Insert Element in Middle         | O(n)            | O(n)        |
 
 ## INFO
 -This contains various necessary information and practices for coding.<br />
