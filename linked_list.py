@@ -29,7 +29,14 @@ class LinkedList:
             return
         itr = self.head
         while itr.next:
-            itr = itr.next 
+            itr = itr.next
+        itr.next = Node(data,None) 
+    
+    def insert_values(self,data_list):
+        self.head = None 
+        for data in data_list:
+            self.insert_at_end(data)
+        
 
 
     
@@ -39,9 +46,6 @@ class LinkedList:
 
 if __name__ == "__main__":
     ll = LinkedList()
-    ll.insert_at_beginning(5)
-    ll.insert_at_beginning(95)
-    ll.insert_at_end(79)
+    ll.insert_values(["baba","mummy","bhai","baini"])
     ll.print()
-
     
