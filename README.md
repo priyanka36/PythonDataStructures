@@ -21,7 +21,7 @@ binarytree <br /><br />
 - A linked list contains a pointer to the previous as well as the next node
 - A linked list is efficient in solving the memory and the various issues associated with the normal list
 - The comparison table for this is :</br></br>
-|                                  | Array           | Linked List |
+| Comparison Basis                 | Array           | Linked List |
 | ---------------------------------| ----------------| ------------|
 | Indexing                         | O(1)            | O(n)        | 
 | Insert/Delete Elements at Start  | O(n)            | O(1)        |
