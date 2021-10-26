@@ -16,6 +16,11 @@ binarytree <br /><br />
 -The minimum value of the tree is shown in the module binarytreecopy.py<br /><br />
 -The maximum value of the tree is shown in the module binarytreecopy.py<br /><br />
 
+## LINKED LIST
+- A linked list solves the various time and space complexities associated with the lists
+- A linked list contains a pointer to the previous as well as the next node
+- A linked list is efficient in solving the memory and the various issues associated with the normal list
+
 ## INFO
 -This contains various necessary information and practices for coding.<br />
 
