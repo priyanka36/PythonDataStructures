@@ -33,7 +33,8 @@ binarytree <br /><br />
 - Hash table is efficient data structure in memory.In python hash table is implemented using python.</br>
 - Hash table reduces the search and insertion complexity.</br>
 - As compared to list hash tables have O(1) for insertion and deletion operations.</br>
--  
+- The mapping is done using the sum of the ASCI values of the key and dividing them by the array size where the size of the array is the divisor and taking the remainder as the mapping value </br>
+-
 | Programming Language             | HashMap Implementation | 
 | -------------------------------- | -----------------------| 
 | Python                           | dictionary             |  
