@@ -8,7 +8,7 @@ def bubble_sort(arr):
                 arr[i+1]=arr[i]
                 arr[i] = temp
                 print(arr)
-                swapped = True
+                swapped =True
         if not swapped:
             break
 

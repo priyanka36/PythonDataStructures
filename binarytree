@@ -1,0 +1,21 @@
+Set is an important data structure available in Java and Python.
+It removes the duplicate elements from the list
+Internally to implement set we can use Binary Search Tree
+Binary Tree is a regular Tree with a constraint that it has at least two child nodes
+AT max=2
+Binary Search Tree
+-The elements to the left are always less than the root element 
+-The elements to the right are always more than the root element 
+-This applies to every node 
+-Elements are always unique
+
+The search complexity is always reduced to half because when we add an element to the left or right we are reducing the search factor by half 
+
+Search Complexity : O(logn)
+
+Breadth First Search 
+Depth First Search 
+- In order Traversal 
+- Pre Order Traversal 
+- Post Order Traversal 
+

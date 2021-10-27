@@ -29,6 +29,21 @@ binarytree <br /><br />
 | Insert/Delete Elements at End    | O(1)-amortized  | O(n)        |
 | Insert Element in Middle         | O(n)            | O(n)        |
 
+## HASH TABLE 
+- Hash table is efficient data structure in memory.In python hash table is implemented using python.</br>
+- Hash table reduces the search and insertion complexity.</br>
+- As compared to list hash tables have O(1) for insertion and deletion operations.</br>
+-  
+| Programming Language             | HashMap Implementation | 
+| -------------------------------- | -----------------------| 
+| Python                           | dictionary             |  
+| Java                             | HashMap                | 
+| C++                              | std::app               | 
+| Java                             | linked HashMap         | 
+
+
+
+
 ## INFO
 -This contains various necessary information and practices for coding.<br />
 

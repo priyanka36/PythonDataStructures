@@ -1,0 +1,32 @@
+Big O notation is used to measure how running time or space requirements for your program grow as input size grows 
+
+Lets say a function :
+ def foo(arr):
+      size(arr)
+
+if size = 100 -> 0.22 milliseconds 
+if size = 1000 -> 2.30 milliseconds 
+
+as size grows time also grows 
+Time vs Size is a linear function 
+time = a*n + b 
+The running time depends on the computer or device we are using 
+So measuring time in absolute terms is not useful it has to be mathematically representative 
+
+There are certain rules to keep up with:
+-  Keep the fastest growing terms ie. time = a*n+b,time=a*n 
+- Drop constants
+- so time complexity is o(n)
+
+for i i n range(len(numbers)):
+    for j in range(i+1,len(numbers)):
+        if numbers[i] == numbers [j]
+            duplicate = numbers[i]
+            break 
+    Time complexity = n^2 iterations 
+
+for i in range(len(numbers)):
+    if numbers[i] == duplicate :
+        print(i)
+
+     Time complexity =    n iterations
